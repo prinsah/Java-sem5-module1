@@ -11,7 +11,7 @@ public class SessionTracking extends HttpServlet {
         PrintWriter out = response.getWriter();
 
         HttpSession session = request.getSession();
-        session.setAttribute("username", "Devika");
+        session.setAttribute("username", "prinsha");
 
         out.println("<h2>Session Created Successfully!</h2>");
         out.println("<p>Welcome " +
