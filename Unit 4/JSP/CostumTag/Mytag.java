@@ -12,7 +12,7 @@ public class MyTag extends SimpleTagSupport {
         JspWriter out = getJspContext().getOut();
 
         out.println("<h3>Welcome to Custom Tag Library!</h3>");
-        out.println("<p>Student Name: Devika</p>");
+        out.println("<p>Student Name: prinsha</p>");
         out.println("<p>Course: Computer Science</p>");
     }
 }
