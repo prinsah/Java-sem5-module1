@@ -4,7 +4,7 @@
 <%
     Student s = new Student();
 
-    s.setName("Devika");
+    s.setName("prinsha");
     s.setCourse("CSE");
     s.setMarks(90);
 
