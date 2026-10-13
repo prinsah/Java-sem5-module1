@@ -10,7 +10,7 @@ public class CookiesServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
-        Cookie c = new Cookie("username", "Devika");
+        Cookie c = new Cookie("username", "prinsha ");
         response.addCookie(c);
 
         out.println("<h2>Cookie Created Successfully!</h2>");
